@@ -20,7 +20,7 @@ export class MontandoDados {
             principalFonte.classList.add('principal-fonte')
             img.classList.add('imagem-principal')
 
-            principalNoticia.addEventListener('click', function(event){
+            principalTitulo.addEventListener('click', function(event){
                 event.preventDefault()
                 window.location.assign(element.noticia_completa)
             })
